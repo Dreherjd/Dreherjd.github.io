@@ -8,3 +8,97 @@
      -o-transform: translate(-50%, -50%)
      transform: translate(-50%, -50%);
 }
+
+#burger{
+  margin-top: 5em;
+}
+
+article.accordion{
+	display: block !important;
+	width: 43em !important;
+	margin: 0 auto !important;
+	background-color: #666 !important;
+	overflow: auto !important;
+	border-radius: 5px !important;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.3) !important;
+}
+
+article.accordion section{
+	position: relative !important;
+	display: block !important;
+	float: left !important;
+	width: 2em !important;
+	height: 12em !important;
+	margin: 0.5em 0 0.5em 0.5em !important;
+	color: #333 !important;
+	background-color: #333 !important;
+	overflow: hidden !important;
+	border-radius: 3px !important;
+}
+
+article.accordion section h2{
+	position: absolute !important;
+	font-size: 1em !important;
+	font-weight: bold !important;
+	width: 12em !important;
+	height: 2em !important;
+	top: 12em !important;
+	left: 0 !important;
+	text-indent: 1em !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	color: #ddd !important;
+	-webkit-transform-origin: 0 0 !important;
+	-moz-transform-origin: 0 0 !important;
+	-ms-transform-origin: 0 0 !important;
+	-o-transform-origin: 0 0 !important;
+	transform-origin: 0 0 !important;
+	-webkit-transform: rotate(-90deg) !important;
+	-moz-transform: rotate(-90deg) !important;
+	-ms-transform: rotate(-90deg) !important;
+	-o-transform: rotate(-90deg) !important;
+	transform: rotate(-90deg) !important;
+}
+
+article.accordion section h2 a{
+	display: block !important;
+	width: 100% !important;
+	line-height: 2em !important;
+	text-decoration: none !important;
+	color: inherit !important;
+	outline: 0 none !important;
+}
+
+article.accordion section:target{
+	width: 30em !important;
+	padding: 0 1em !important;
+	color: #333 !important;
+	background-color: #fff !important;
+}
+
+article.accordion section:target h2{
+	position: static !important;
+	font-size: 1.3em !important;
+	text-indent: 0 !important;
+	color: #333 !important;
+	-webkit-transform: rotate(0deg) !important;
+	-moz-transform: rotate(0deg) !important;
+	-ms-transform: rotate(0deg) !important;
+	-o-transform: rotate(0deg) !important;
+	transform: rotate(0deg) !important;
+}
+
+article.accordion section,
+article.accordion section h2{
+	-webkit-transition: all 1s ease !important;
+	-moz-transition: all 1s ease !important;
+	-ms-transition: all 1s ease !important;
+	-o-transition: all 1s ease !important;
+	transition: all 1s ease !important;
+}
+
+
+#particles-js{
+  background-color: firebrick;
+  height: 100%;
+}
