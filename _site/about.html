@@ -3,61 +3,74 @@
 <head>
   <title>Justin's portfolio</title>
   <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link href="../css/materialize.css" type="text/css" rel="stylesheet" />
   <link href="../css/app.css" type="text/css" rel="stylesheet" />
 </head>
 
-<nav style="background-color: #616161">
+<nav style="background-color: #424242">
+  <div class="container">
     <div class="nav-wrapper">
-      <div class="container">
       <a href="index.html" style="font-family: 'Pacifico', cursive;" class="brand-logo left">Justin Dreher | Web Developer</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
         <li class=""><a href="projects.html" >My Projects</a></li>
         <li class="active"><a href="about.html#acc1" >About Me</a></li>
         <li class=""><a href="contact.html" >Contact Me</a></li>
       </ul>
-      </div>
+      <ul class="side-nav" id="mobile-demo">
+        <li class=""><a href="projects.html" >My Projects</a></li>
+        <li class="active"><a href="about.html#acc1" >About Me</a></li>
+        <li class=""><a href="contact.html" >Contact Me</a></li>
+      </ul>
+    </div>
     </div>
   </nav>
-  <div id="particles-js"></div>
 <div class="container">
+<body>
+<div id="burger">
 <div  class="row">
-  <div class="col s12 m4">
-    <img src="images/assburgers.gif" alt="an ass burger" height="293px" width="432px" />
-  </div>
-  <div class="col s12 m8">
-
-<h2 style="margin-left: 1.2em;">Justin is a(n)...</h2>
-<article class="accordion">
-	<section id="acc1">
-		<h2><a href="#acc1">Programmer</a></h2>
-		<p>Building software is a hobby and a career for me, I love to try new things, and having them blow up in my face. I'm always looking for that new technology to learn and play with.</p>
-	</section>
-
-	<section id="acc2">
-		<h2><a href="#acc2">Designer</a></h2>
-		<p>Like the great athletes of today, I am never satisfied with my designs. I tend to strive for the impossible. I love working with the newest technology, andI am currently head over heels for material design.</p>
-	</section>
-
-	<section id="acc3">
-		<h2><a href="#acc3">Trekkie</a></h2>
-		<p>I only accept reasonable futures in my science fiction. Why would you want to watch movies about the past, when you can watch multiple series about the future.</p>
-	</section>
-
-	<section id="acc4">
-		<h2><a href="#acc4">Acedemic</a></h2>
-		<p>Learning is how you stay current in this field, and staying current is my middle name. I love to learn new things, and I hope to never stop.</p>
-	</section>
-
-	<section id="acc5">
-		<h2><a href="#acc5">Gamer</a></h2>
-		<p>Currently I am in a love hate relationship with video games, I hate that I can't play them all day.</p>
-	</section>
-
-</article>
+  <div class="center-align">
+<h2 style="margin-left: 1.2em;">Justin is a...</h2>
+<div class="accordion">
+  <ul>
+    <li>
+      <div> <a href="#">
+        <h2>Programmer</h2>
+        <p>Building applications is more of a love than a job for me.</p>
+        </a> </div>
+    </li>
+    <li>
+      <div> <a href="#">
+        <h2>Designer</h2>
+        <p>Content 2</p>
+        </a> </div>
+    </li>
+    <li>
+      <div> <a href="#">
+        <h2>Scholar</h2>
+        <p>Content 3</p>
+        </a> </div>
+    </li>
+    <li>
+      <div> <a href="#">
+        <h2>Trekkie</h2>
+        <p>Content 4</p>
+        </a> </div>
+    </li>
+    <li>
+      <div> <a href="#">
+        <h2>Gamer</h2>
+        <p>Content 5</p>
+        </a> </div>
+    </li>
+  </ul>
+</div>
   </div>
 </div>
+</div>
+</body>
 
 </div>
 

@@ -3,34 +3,25 @@
 <head>
   <title>Justin's portfolio</title>
   <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link href="../css/materialize.css" type="text/css" rel="stylesheet" />
   <link href="../css/app.css" type="text/css" rel="stylesheet" />
 </head>
 
 <nav style="background-color: #424242">
-  <div class="container">
     <div class="nav-wrapper">
+      <div class="container">
       <a href="index.html" style="font-family: 'Pacifico', cursive;" class="brand-logo left">Justin Dreher | Web Developer</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li class=""><a href="projects.html" >My Projects</a></li>
-        <li class=""><a href="about.html#acc1" >About Me</a></li>
-        <li class=""><a href="contact.html" >Contact Me</a></li>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="{% if page.url == '/projects.html' %}active{% endif %}"><a href="projects.html" >My Projects</a></li>
+        <li class="{% if page.url == '/about.html' %}active{% endif %}"><a href="about.html#acc1" >About Me</a></li>
+        <li class="{% if page.url == '/contact.html' %}active{% endif %}"><a href="contact.html" >Contact Me</a></li>
       </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li class=""><a href="projects.html" >My Projects</a></li>
-        <li class=""><a href="about.html#acc1" >About Me</a></li>
-        <li class=""><a href="contact.html" >Contact Me</a></li>
-      </ul>
-    </div>
+      </div>
     </div>
   </nav>
-<div class="container">
-<h1>dummy text</h1>
-
-</div>
+  <div id="particles-js"></div>
+{{content}}
 
 
 <script
