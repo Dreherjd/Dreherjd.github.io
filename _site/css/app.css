@@ -9,6 +9,12 @@
      transform: translate(-50%, -50%);
 }
 
+#mailto-button{
+  float: right;
+  width: 15em;
+  margin-right: 10em;
+}
+
 #burger{
   margin-top: 5em;
 }
@@ -97,11 +103,11 @@
 
 .accordion ul li:nth-child(1) { background-image: url("../images/1.jpg"); }
 
-.accordion ul li:nth-child(2) { background-image: url("../images/2.jpg"); }
+.accordion ul li:nth-child(2) { background-image: url("../images/2.png"); }
 
 .accordion ul li:nth-child(3) { background-image: url("../images/3.jpg"); }
 
-.accordion ul li:nth-child(4) { background-image: url("../images/4.jpg"); }
+.accordion ul li:nth-child(4) { background-image: url("../images/4.png"); }
 
 .accordion ul li:nth-child(5) { background-image: url("../images/5.jpg"); }
 
